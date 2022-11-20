@@ -1,0 +1,261 @@
+@media screen and (max-width: 1500px) {
+  .header {
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .header__video {
+    width: 650px;
+    height: 650px;
+    margin-bottom: 60px;
+  }
+  .header__video img {
+    transform: scale(0.8);
+    top: 0;
+    left: -10;
+  }
+  .header__logo {
+    transform: scale(0.665);
+    margin-top: 80px;
+  }
+  .header__text {
+    flex-direction: column;
+    height: auto;
+    z-index: 2;
+    width: 100%;
+
+    position: relative;
+  }
+
+  .header__text h1 {
+    font: normal normal bold 40px Montserrat;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .flake {
+    top: 100px;
+    right: -20%;
+    transform: scale(0.7);
+  }
+  .gift {
+    width: 200px;
+    left: -100px;
+    bottom: 0px;
+  }
+  .star {
+    top: 530px;
+    right: -7%;
+  }
+
+  .header .button__generic--green {
+    margin-bottom: 60px;
+  }
+
+  /* ------------------------ products --------------------- */
+
+  .products {
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .products__wrapper {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .products__galery {
+    width: 85%;
+    margin: auto;
+  }
+  .button--right {
+    left: 100%;
+  }
+  .products__img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .products__wrapper:after {
+    width: 130px;
+    height: 112px;
+    top: -15px;
+    left: 8px;
+  }
+
+  .first::before {
+    top: -57px;
+    right: -8px;
+  }
+
+  .second::before {
+    bottom: -15px;
+    right: -8px;
+  }
+  .products__text {
+    font: normal normal bold 18px Montserrat;
+    text-align: center;
+    margin-top: 16px;
+  }
+  /* ---------------- Search -------------------- */
+
+  .search__bar__city {
+    width: 50%;
+  }
+
+  .search__bar__around {
+    width: 40%;
+  }
+  /* ---------------- footer -------------------- */
+  .about__wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .search__bar {
+    flex-direction: column;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    width: 95%;
+  }
+  .search__bar__city,
+  .search__bar__around {
+    width: 90%;
+    height: 76px;
+    margin-bottom: 10px;
+  }
+  .search__bar__around {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__video {
+    width: 360px;
+    height: 360px;
+    margin-bottom: 0px;
+  }
+  .header__video img {
+    transform: scale(0.45);
+    top: 58%;
+    left: 58%;
+  }
+
+  .header__text h1 {
+    max-width: 360px;
+  }
+
+  .flake {
+    top: 285px;
+    right: -42%;
+    transform: scale(0.7);
+  }
+  .gift {
+    display: none;
+  }
+  .star {
+    top: 468px;
+    right: 10%;
+    transform: scale(0.55);
+  }
+
+  .header .button__generic--green {
+    margin-top: 15px;
+  }
+  .button__generic--green img {
+    padding-left: 38px;
+  }
+  .button__generic--green p {
+    font-size: 14px;
+    padding: 21px 38px 21px 15px;
+    margin: 0;
+  }
+
+  /* ---------------- Search -------------------- */
+
+  .search {
+    height: auto;
+  }
+  .search__title {
+    text-align: center;
+    margin-top: 41px;
+    max-width: 400px;
+  }
+
+  .search__bar::after {
+    top: -235px;
+    left: -70px;
+    transform: scale(1.1);
+  }
+
+  .search__bar input {
+    width: 50%;
+  }
+
+  .search__bar__city button {
+    width: 76px;
+  }
+  .search__bar i {
+    font-size: 30px;
+  }
+
+  .search__bar__around button {
+    width: 76px;
+  }
+  .search__around {
+    width: 50%;
+  }
+
+  /* ------------------------- footer ---------------------------- */
+
+  .about {
+    width: 100%;
+  }
+  .about__wrapper {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .about__logo img {
+    width: 200px;
+  }
+
+  .about__us {
+    width: 100%;
+  }
+  .about__us h3 {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+
+  .about .button__generic--green p {
+    padding: 23px 60px;
+    margin-left: 0px;
+    text-transform: none;
+    font-size: 21px;
+  }
+  .about .button__generic--green {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .about__us__text {
+    font-size: 16px;
+    max-width: 250px;
+    margin-top: 30px;
+  }
+
+  .about__us__socials i {
+    font-size: 32px;
+  }
+  .about__background {
+    background-position: 80%;
+    background-size: 100% 100%;
+  }
+}

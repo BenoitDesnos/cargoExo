@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153.158" height="148.576" viewBox="0 0 153.158 148.576">
+  <defs>
+    <filter id="Icon_ionic-ios-star" x="0" y="0" width="153.158" height="148.576" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#e7af00"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_ionic-ios-star)">
+    <path id="Icon_ionic-ios-star-2" data-name="Icon ionic-ios-star" d="M76.5,28.182H51.157L43.457,5.2a2.79,2.79,0,0,0-5.237,0l-7.7,22.981H5.006A2.764,2.764,0,0,0,2.25,30.938,2.026,2.026,0,0,0,2.3,31.4,2.648,2.648,0,0,0,3.456,33.35L24.283,48.027,16.29,71.266a2.764,2.764,0,0,0,.947,3.1,2.666,2.666,0,0,0,1.55.672,3.377,3.377,0,0,0,1.723-.62L40.838,59.931,61.166,74.419a3.228,3.228,0,0,0,1.723.62,2.475,2.475,0,0,0,1.533-.672,2.73,2.73,0,0,0,.947-3.1L57.376,48.027,78.031,33.212l.5-.431a2.89,2.89,0,0,0,.9-1.843A2.917,2.917,0,0,0,76.5,28.182Z" transform="translate(30.11 41.95) rotate(-9)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

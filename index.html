@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/0152501894.js" crossorigin="anonymous"></script>
+    <title>Centrakor</title>
+</head>
+
+<body>
+    <main>
+
+        <header class="header">
+            <div class="header__text">
+                <img src="./img/flake.png" alt="flake image" class="absolute flake">
+                <img src="./img/gift.png" alt="gift image" class="absolute gift">
+                <img src="./img/Icon ionic-ios-star.png" alt="etoile image" class="absolute star">
+                <img src="./logos/CTK-logo.svg" alt="centrakor logo" class="header__logo">
+                <h1>Nos coups de cœur à prix magiques !</h1>
+                <a href="#findStore">
+
+                    <button class="button__generic--green button__effects">
+                        <img src="./logos/magasins.svg" alt="magasin logo">
+                        <p>JE TROUVE MON MAGASIN</p>
+                    </button>
+                </a>
+            </div>
+            <div class="header__video">
+                <img src="./logos/Vu-TV-icon.svg" alt="logo énonçant vu à la tv">
+                <video src="./videos/video chien.mp4" type="video/mp4" poster="./img/Sans titre (3)_PosterImage.png"
+                    width="100%" height="100%" autoplay>
+                    Sorry, your browser doesn't support HTML5 video tag.
+                </video>
+            </div>
+        </header>
+        <section class="products">
+            <div class="products__wrapper first">
+                <div class="products__galery">
+                    <img src="./icons/left.svg" class="button--left"></img>
+                    <img src="./img/packshots/Bouteille_iso_01.png" alt="image bouteille isotherme"
+                        class="products__img">
+                    <img src="./icons/right.svg" class="button--right"></img>
+                </div>
+                <span class="products__text">La bouteille isotherme 50cL</span>
+            </div>
+            <div class="products__wrapper second">
+                <div class="products__galery">
+                    <img src="./icons/left.svg" class="button--left"></img>
+                    <img src="./img/packshots/Fauteuil_Patchwork-Blc.png" alt="image fauteuil patchWork"
+                        class="products__img">
+                    <img src="./icons/right.svg" class="button--right"></img>
+                </div>
+                <span class="products__text">Le fauteuil patchwork</span>
+            </div>
+
+
+        </section>
+        <section id="findStore" class="search">
+            <h3 class="search__title">JE CHERCHE MON MAGASIN</h3>
+            <div class="search__bar">
+                <div class="search__bar__city">
+                    <input placeholder="Indiquez une ville" type="text" class="search__city"></input>
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="search__bar__around">
+                    <div class="search__around">Magasins autour de moi</div>
+                    <button>
+                        <i class="fa-solid fa-crosshairs"></i>
+                    </button>
+                </div>
+        </section>
+        <footer class="about">
+            <div class="about__wrapper">
+
+                <div class="about__logo">
+                    <img src="./img/CTK-img.png" alt="logo centrakor">
+                </div>
+                <div class="about__us">
+                    <h3 class="about__us__title">QUI SOMMES NOUS ?
+                    </h3>
+                    <button class="button__generic--green button__effects">
+                        <p>
+
+                            Découvrez Centrakor
+                        </p>
+                    </button>
+                    <p class="about__us__text">et suivez nos aventures sur les réseaux sociaux</p>
+                    <ul>
+                        <li class="about__us__socials">
+                            <a href="https://www.facebook.com/" class="about__us__socials__link"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                        </li>
+                        <li class="about__us__socials">
+                            <a href="https://www.instagram.com/" class="about__us__socials__link"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="about__us__socials">
+                            <a href="https://www.pinterest.fr/" class="about__us__socials__link">
+
+
+                                <i class="fa-brands fa-square-pinterest"></i></a>
+                        </li>
+                        <li class="about__us__socials">
+                            <a href="https://www.tiktok.com/fr/" class="about__us__socials__link">
+
+
+                                <i class="fa-brands fa-tiktok"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__background">
+
+            </div>
+
+        </footer>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

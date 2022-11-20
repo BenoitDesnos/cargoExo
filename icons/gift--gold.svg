@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204.613" height="196.99" viewBox="0 0 204.613 196.99">
+  <defs>
+    <filter id="Icon_awesome-gift" x="0" y="0" width="204.613" height="196.99" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#e7af00"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-gift)">
+    <path id="Icon_awesome-gift-2" data-name="Icon awesome-gift" d="M10.989,96.784a7.1,7.1,0,0,0,7.1,7.1H53.618V68.364H10.989Zm52,7.27H98.518a7.1,7.1,0,0,0,7.1-7.1V68.529H62.994Zm43.579-73.384H97.225a19.359,19.359,0,0,0,2.242-8.881A19.567,19.567,0,0,0,79.929,2.25c-9.236,0-15.209,4.729-22.869,15.164C49.4,6.979,43.428,2.25,34.192,2.25A19.567,19.567,0,0,0,14.654,21.788,19.087,19.087,0,0,0,16.9,30.669H7.1a7.1,7.1,0,0,0-7.1,7.1V55.536a3.563,3.563,0,0,0,3.552,3.552H110.125a3.563,3.563,0,0,0,3.552-3.552V37.774A7.1,7.1,0,0,0,106.573,30.669Zm-72.4,0a8.881,8.881,0,0,1,0-17.762c4.418,0,7.682.733,19.116,17.762H34.17Zm45.76,0H60.813C72.225,13.684,75.4,12.907,79.929,12.907a8.881,8.881,0,1,1,0,17.762Z" transform="matrix(0.95, 0.31, -0.31, 0.95, 64.67, 30.38)" fill="none" stroke="#fff" stroke-width="4"/>
+  </g>
+</svg>
