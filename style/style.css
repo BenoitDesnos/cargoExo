@@ -225,7 +225,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #004542;
-  height: 500px;
+  min-height: 500px;
 }
 .search__title {
   text-align: left;
@@ -243,7 +243,8 @@ html {
   border-radius: 5px;
   opacity: 1;
   width: 70%;
-  height: 230px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
