@@ -209,6 +209,11 @@ html {
   background-color: black;
   width: 10px;
 }
+.dot.is-active {
+  opacity: 1;
+
+  background-color: #50b6b2;
+}
 
 /* ---------------- Search -------------------- */
 
@@ -312,6 +317,7 @@ html {
   display: flex;
   margin-left: 10px;
   justify-content: space-between;
+  cursor: pointer;
 }
 .search__bar__around button {
   background-color: #50b7b2;
