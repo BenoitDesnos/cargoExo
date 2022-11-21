@@ -93,6 +93,8 @@ rightClick.forEach((click) => {
   });
 });
 
+// alert recherche ok car pas d'api fourni
+
 searchButtonCity.addEventListener("click", () => {
   alert("Merci pour votre recherche");
 });
