@@ -65,14 +65,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+  }
+  .buttons__wrapper {
+    width: 85%;
+    position: relative;
+    margin-bottom: 20px;
   }
   .products__galery {
-    width: 85%;
+    width: 100%;
     margin: auto;
   }
-  .button--right {
-    left: 100%;
-  }
+
   .products__img {
     width: 100%;
     margin-left: 0px;

@@ -100,24 +100,45 @@ html {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+.buttons__wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
 .products__galery {
   background-color: #f5f5f5;
 
   position: relative;
+  overflow: hidden;
 }
+
 .button--right,
 .button--left {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   cursor: pointer;
+  z-index: 3;
+}
+.button--right {
+  left: 100%;
+}
+.products__carrousel {
+  position: relative;
+
+  display: flex;
+  flex-wrap: nowrap;
 }
 .products__img {
+  position: relative;
   margin: 30px;
 }
 .products__wrapper {
+  max-width: 538px;
+  width: 50%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .products__wrapper:after {
   content: "";
@@ -162,15 +183,31 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.products__galery {
-  margin-bottom: 20px;
-}
+
 .products__text {
   text-align: left;
   font: normal normal bold 32px/40px Montserrat;
   letter-spacing: 0px;
   color: #434343;
   opacity: 1;
+}
+.dots__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dot {
+  display: block;
+  margin: 5px;
+  height: 10px;
+  opacity: 0.2;
+  border-radius: 50%;
+  background-color: black;
+  width: 10px;
 }
 
 /* ---------------- Search -------------------- */
